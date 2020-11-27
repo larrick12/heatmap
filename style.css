@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.main {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 28px;
+  font-family: Arial;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2.5;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.svg {
+  display: block;
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.x-axis .y-axis path,
+.y-axis .x-axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  position: absolute;
+  height: fit-content;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: lightgreen;
+  pointer-event: none;
+}
